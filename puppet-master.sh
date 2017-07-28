@@ -17,5 +17,5 @@ yum install -y puppetdb-termini
 
 yum install -y ruby
 gem install bundler
-gem install r10k
+bundle install
 
