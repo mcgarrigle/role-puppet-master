@@ -27,3 +27,6 @@ gem install bundler
 
 bundle install
 
+systemctl stop firewalld
+systemctl disable firewalld
+
