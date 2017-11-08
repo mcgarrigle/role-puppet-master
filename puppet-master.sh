@@ -100,6 +100,8 @@ bundle install
 
 # install local software repo
 
+yum install -y yum-utils
+yum install -y createrepo
 yum install -y httpd
 
 puppet resource service httpd ensure=running enable=true
