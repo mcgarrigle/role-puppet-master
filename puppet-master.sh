@@ -90,6 +90,8 @@ chown -R puppet:puppet $CONF $ROUTES
 
 systemctl restart puppetserver
 
+puppet resource package puppet-client-tools ensure=latest
+
 # ------------------------------------------------------------
 # install r10k
 
